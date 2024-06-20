@@ -12,7 +12,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 @WebMvcTest(CommonController.class)
-public class ControllerTest {
+public class CommonControllerTest {
 	
 	@Autowired
     private MockMvc mockMvc;
