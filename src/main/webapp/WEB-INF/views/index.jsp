@@ -22,6 +22,8 @@
 		
 		<c:if test="${not empty pageContext.request.remoteUser}">
 		<li>
+			<span>Welcome, ${username}!</span>
+			
 			<form:form action="/signout" method="post">
 				<button type="submit">Signout</button>
 			</form:form>
