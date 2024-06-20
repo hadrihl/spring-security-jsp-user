@@ -22,8 +22,8 @@
 		
 		<c:if test="${not empty pageContext.request.remoteUser}">
 		<li>
-			<form:form action="/logout" method="post">
-				<button type="submit">Logout</button>
+			<form:form action="/signout" method="post">
+				<button type="submit">Signout</button>
 			</form:form>
 		</li>
 		</c:if>
