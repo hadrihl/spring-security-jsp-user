@@ -18,7 +18,7 @@ public class ControllerTest {
     private MockMvc mockMvc;
 	
 	@MockBean
-	private UserService userService;
+	private UserService userService; //mock user service class
 
     @Autowired
     private WebApplicationContext webApplicationContext;
