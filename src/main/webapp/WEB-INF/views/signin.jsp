@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h1>Signin</h1>
-	<form:form action="/signin" method="post" modelattribute="user">
+	<form:form action="/login" method="post" modelattribute="user">
 		<div class="form-group" style="margin-bottom: 10px;">
 			<label>Username:</label>
 			<input type="text" name="username" required />
